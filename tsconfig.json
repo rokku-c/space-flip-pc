@@ -1,0 +1,39 @@
+{
+    "$schema": "http://json.schemastore.org/tsconfig",
+    "compilerOptions": {
+        /* Language and Environment */
+        "target": "ES2022",
+        "lib": ["esnext", "dom", "dom.iterable"],
+        "jsx": "preserve",
+
+        /* Modules */
+        "module": "ES2022",
+        "rootDir": ".",
+        "moduleResolution": "bundler",
+        "baseUrl": ".",
+        "resolveJsonModule": true,
+
+        /* JavaScript Support */
+        "allowJs": true,
+        "checkJs": true,
+        "maxNodeModuleJsDepth": 3,
+
+        /* Emit */
+        "sourceMap": false,
+        "outDir": "temp",
+        "removeComments": false,
+        "newLine": "lf",
+
+        /* Interop Constraints */
+        "isolatedModules": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+
+        /* Type Checking */
+        "noImplicitThis": true,
+
+        /* Completeness */
+        "skipLibCheck": true
+    },
+    "include": ["src", "test"]
+}
